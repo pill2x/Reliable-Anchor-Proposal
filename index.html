@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Website Rebrand & Web Infrastructure Proposal — Reliable Anchor Nigeria Limited</title>
+<title>Website Improvement Proposal — Reliable Anchor Nigeria Limited</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
 <script src="https://unpkg.com/@phosphor-icons/web"></script>
+<link rel=stylesheet href="style.css">
 </head>
 <body>
 
@@ -19,97 +19,92 @@
       <div class="cover-divider"></div>
     </div>
     <div class="cover-right">
-      <div class="cover-stat">
-        <span class="stat-label">Prepared for</span>
-        <span class="stat-value">Reliable Anchor Nigeria Ltd</span>
-      </div>
-      <div class="cover-stat">
-        <span class="stat-label">Submitted by</span>
-        <span class="stat-value">Iwunze Miracle</span>
-      </div>
-      <div class="cover-stat">
-        <span class="stat-label">Date</span>
-        <span class="stat-value">May 2026</span>
-      </div>
-      <div class="cover-stat">
-        <span class="stat-label">Project Scope</span>
-        <span class="stat-value">Rebrand + Web App Infrastructure</span>
-      </div>
-      <div class="cover-stat">
-        <span class="stat-label">Focus</span>
-        <span class="stat-value">UX Optimization &amp; Digitalization</span>
-      </div>
+      <div class="cover-stat"><span class="s-label">Prepared for</span><span class="s-value">Reliable Anchor Nigeria Ltd</span></div>
+      <div class="cover-stat"><span class="s-label">Submitted by</span><span class="s-value">Iwunze Miracle</span></div>
+      <div class="cover-stat"><span class="s-label">Date</span><span class="s-value">May 2026</span></div>
+      <div class="cover-stat"><span class="s-label">Project duration</span><span class="s-value">5 weeks</span></div>
+      <div class="cover-stat"><span class="s-label">Focus</span><span class="s-value">Trust, Function & Lead Generation</span></div>
     </div>
   </div>
   <div class="verdict-strip">
-    <div class="verdict-item">
-      <span class="v-label">Industry</span>
-      <span class="v-value">Customs Brokerage &amp; Supply Chain, Nigeria</span>
-    </div>
-    <div class="verdict-item">
-      <span class="v-label">Primary Gap</span>
-      <span class="v-value">Broken navigation paths &amp; static architecture</span>
-    </div>
-    <div class="verdict-item">
-      <span class="v-label">Solution Path</span>
-      <span class="v-value">UI Rebrand + Secure Portal Infrastructure</span>
-    </div>
-    <div class="verdict-item">
-      <span class="v-label">Phase 1 Target</span>
-      <span class="v-value">System Repair &amp; Navigation Redesign</span>
-    </div>
+    <div class="vi"><span class="vl">Industry</span><span class="vv">Customs Clearance & Logistics, Nigeria</span></div>
+    <div class="vi"><span class="vl">Primary gap</span><span class="vv">Broken site function & credibility signals</span></div>
+    <div class="vi"><span class="vl">Deliverables</span><span class="vv">10 targeted improvements</span></div>
+    <div class="vi"><span class="vl">Investment</span><span class="vv">₦380k – ₦820k</span></div>
   </div>
 </div>
 
 <div class="body-wrap">
 
+  <!-- 01 ANALYSIS -->
   <div class="section">
-    <div class="section-head">
-      <span class="section-num">01 //</span>
-      <h2>Site Evaluation &amp; Deductions</h2>
-    </div>
+    <div class="section-head"><span class="section-num">01 //</span><h2>Site Analysis</h2></div>
 
-    <div class="cred-box">
-      <span class="cred-icon">⚓</span>
-      <p>A corporate enterprise trusted to manage maritime freight, customs compliance, and supply chains requires a seamless digital presence. The current platform relies on basic, traditional, decoupled HTML documents. This presents massive operational limitations and navigation anomalies that quietly degrade user trust and interrupt the client acquisition funnel.</p>
+    <div class="callout">
+      <span class="callout-icon">⚓</span>
+      <p>Reliable Anchor operates in a high-stakes, high-trust industry — customs clearance for real cargo, real money, and real regulatory consequences. The site is live, structured, and content-rich, but carries <strong>functional bugs and credibility gaps</strong> that any serious corporate importer would spot before making contact. The foundation is good; the execution needs finishing.</p>
     </div>
 
     <div class="analysis-grid">
 
-      <div class="analysis-card good">
-        <div class="card-tag tag-good">✓ Strengths</div>
-        <h3>Current Structural Foundation</h3>
-        <p>The current platform establishes a useful baseline layout: a multi-tiered dropdown service navigation, dedicated sector pages, a functional contact collection form, an "Importer's Guide" knowledge asset, and dynamic client recommendation blocks. However, these are managed entirely as hardcoded, decoupled assets, limiting the site from scaling into an active business asset.</p>
+      <div class="ac good">
+        <div class="card-tag tag-good">✓ What's already working</div>
+        <h3>Strengths to build on</h3>
+        <p>Well-structured service pages (5 dedicated pages with detailed copy), per-page FAQ sections, real named testimonials with company affiliations, a live blog with recent content, an Importer's Guide section (rare competitive asset), a working enquiry form with cargo-type selection, WhatsApp floating button, and a proper .ng domain. The site communicates expertise — it just doesn't quite earn trust yet.</p>
       </div>
 
-      <div class="analysis-card">
-        <div class="card-tag tag-critical">Critical UX Flaw</div>
-        <h3>Broken Navigation Funnels (404 Error Routes)</h3>
-        <p>Every contextual call-to-action link inside the sidebar element ("All Services") redirects a user to an absolute file path mismatch error page (e.g., <code>/services/service-single-1.html</code>). This severe breakdown indicates an incomplete migration or fractured code deployment, causing high friction and immediate user bounce rates.</p>
+      <div class="ac">
+        <div class="card-tag tag-critical">Critical</div>
+        <h3>All "All Services" sidebar links → 404</h3>
+        <p>Every service subpage has a right sidebar listing all services (Custom Clearance, Compliance & Advisory, Port Operations, etc.) as clickable CTAs. <strong>Every single one of them returns a 404 error.</strong> This means any visitor browsing services hits a dead wall the moment they try to navigate. It's the most damaging functional bug on the site and needs to be the first thing fixed.</p>
       </div>
 
-      <div class="analysis-card">
-        <div class="card-tag tag-critical">Critical UX Flaw</div>
-        <h3>Misplaced Search Bar Isolation</h3>
-        <p>The core service query input is confined to an isolated sidebar element halfway down secondary pages. For a complex, information-heavy logistics provider offering numerous regulatory clearances, global search vectors should reside natively in the header navbar to grant users instant platform navigation.</p>
+      <div class="ac">
+        <div class="card-tag tag-critical">Critical</div>
+        <h3>Gmail contact email on a licensed company</h3>
+        <p>The header bar and contact section display <strong>anchorreliable32@gmail.com</strong>. In B2B customs clearance — where clients entrust you with six-figure cargo — a Gmail address is an immediate disqualifier for corporate procurement teams. A professional email at reliableanchor.ng must replace it.</p>
       </div>
 
-      <div class="analysis-card">
-        <div class="card-tag tag-issue">Architecture</div>
-        <h3>Hardcoded Static File Dependence</h3>
-        <p>The system runs entirely as a collection of static, manually managed HTML documents. This setup limits updates and introduces path discrepancies between header menus (clean routing) and footer maps (exposing legacy <code>.html</code> file extensions). This design hurts search visibility and blocks dynamic feature sets.</p>
+      <div class="ac">
+        <div class="card-tag tag-critical">Critical</div>
+        <h3>All social media links are dead placeholders</h3>
+        <p>Every social icon across the header, footer, and hero links to <strong>#</strong>. Confirmed visible across all service pages. A company with no working social presence appears unestablished or abandoned to any visitor who tries to verify it. Connect real profiles or remove the icons entirely.</p>
       </div>
 
-      <div class="analysis-card">
-        <div class="card-tag tag-issue">Visual Identity</div>
-        <h3>High Saturated Color Fatigue</h3>
-        <p>The site uses oversized, high-saturation red container backgrounds throughout its midsections. This intense color use overpowers text layers and causes rapid reader fatigue. Modern B2B branding uses neutral slates with crisp, intentional primary accents to direct attention toward essential interface interactions.</p>
+      <div class="ac">
+        <div class="card-tag tag-issue">Issue</div>
+        <h3>Search bar buried in the service sidebar</h3>
+        <p>A "Search Here" field appears only in the sidebar of service subpages — not in the main navigation. For a site with 8+ service pages, blog posts, and an Importer's Guide, site-wide search should live in the navbar where users expect to find it on any page.</p>
       </div>
 
-      <div class="analysis-card span2">
-        <div class="card-tag tag-opportunity">The Infrastructure Imperative</div>
-        <h3>Why the Current Setup is Simple — And the Value of Evolving</h3>
-        <p><strong>The "Digital Business Card" Trap:</strong> Most logistics providers historically view a website as a digital brochure. Operations are managed over manual, fragmented channels: WhatsApp groups, long email chains, and physically printing paperwork portfolios. This fragmentation creates operational blind spots for clients. Transforming this site into a secure web application infrastructure turns it from a simple advertisement into a valuable operations portal.</p>
+      <div class="ac">
+        <div class="card-tag tag-issue">Issue</div>
+        <h3>Inconsistent and broken stat counters</h3>
+        <p>The homepage shows "K+ Satisfied Customers" alongside real numbers like "25+ Experience" and "120+ Deliveries." The mixed formatting (some formatted, some broken template variables) makes the social proof section look unfinished and undermines the credibility the real numbers are meant to build.</p>
+      </div>
+
+      <div class="ac">
+        <div class="card-tag tag-issue">Issue</div>
+        <h3>No licence or regulatory credentials visible</h3>
+        <p>The site repeatedly claims "licensed customs clearance" but displays no NCS licence number, CAC registration, or any verifiable accreditation. In an industry where fake clearing agents are a known risk, the absence of verifiable credentials is a significant red flag for serious importers conducting due diligence.</p>
+      </div>
+
+      <div class="ac">
+        <div class="card-tag tag-issue">Issue</div>
+        <h3>Duplicate heading text on the Compliance page</h3>
+        <p>The Compliance & Trade Advisory service page contains a visible copy error: the heading reads <strong>"Why Choose Reliable Anchor Why Choose Reliable Anchor"</strong> — the phrase printed twice in the same line. Small errors like this signal a lack of attention to detail to any client proofreading the page before making a decision.</p>
+      </div>
+
+      <div class="ac">
+        <div class="card-tag tag-issue">Issue</div>
+        <h3>Service pages are template clones of each other</h3>
+        <p>The Customs Clearance, Compliance & Advisory, and Freight & Logistics pages share identical layouts — same stock image arrangements, same red icon-box sections, same mirrored text grids. For a company with genuinely distinct services, this creates a poor impression: it looks like placeholder content rather than a differentiated offering, and makes it harder for visitors to understand what makes each service unique.</p>
+      </div>
+
+      <div class="ac span2">
+        <div class="card-tag tag-opportunity">Opportunity</div>
+        <h3>The Importer's Guide is an untapped lead-gen asset</h3>
+        <p>The Importer's Guide is rare — very few Nigerian logistics companies offer structured educational content for importers. Currently it's a buried nav link. With an email gate for a downloadable PDF version, prominent homepage positioning, and cross-linking from blog posts and service pages, this single asset could become the site's most consistent source of high-intent, qualified leads. A serious first-time importer who finds and downloads this guide will call Reliable Anchor before anyone else.</p>
       </div>
 
     </div>
@@ -117,57 +112,70 @@
 
   <hr>
 
+  <!-- 02 SCOPE -->
   <div class="section">
-    <div class="section-head">
-      <span class="section-num">02 //</span>
-      <h2>Proposed Digital Infrastructure Blueprint</h2>
-    </div>
+    <div class="section-head"><span class="section-num">02 //</span><h2>Scope of Work &amp; Deliverables</h2></div>
 
-    <p>A modernized approach replaces static marketing with an interactive multi-portal system. The architecture addresses both client-facing trust vectors and administrative operational throughput.</p>
+    <p>Ten deliverables, sequenced by impact. D1–D3 are non-negotiable fixes — broken functionality and credibility errors that are actively costing enquiries today. D4–D10 are content, conversion, and positioning improvements that compound over time.</p>
 
-    <table class="deliverables-table">
+    <table class="dtable">
       <thead>
         <tr>
-          <th>Infrastructure Module</th>
-          <th>Technical Capability</th>
-          <th>Corporate Business Value</th>
+          <th>Deliverable</th>
+          <th>Description</th>
+          <th>Outcome</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>
-            <div class="del-title"><span class="del-num">M1</span>Global Navbar Restructure</div>
-          </td>
-          <td>Re-engineer the top navigation system to unify global query inputs, resolve broken links, and create clean, reliable routing logic.</td>
-          <td>Eliminates user drop-off and fixes navigation friction instantly.</td>
+          <td><div class="dt"><span class="dn">D1</span>Fix all 404 service links</div></td>
+          <td>Audit and repair every broken "All Services" sidebar link across all service subpages. Standardise all internal URLs to consistent clean paths. Set up 301 redirects from any old .html-extension URLs.</td>
+          <td>Site is fully navigable</td>
         </tr>
         <tr>
-          <td>
-            <div class="del-title"><span class="del-num">M2</span>Consignment Visibility Engine</div>
-          </td>
-          <td>A customer-facing tracking pipeline showing clear, step-by-step milestones (Form M Verification → Sea Freight Transit → Customs Clearing Review → Port Out-gating).</td>
-          <td>Reduces frantic client phone calls by providing continuous operational transparency.</td>
+          <td><div class="dt"><span class="dn">D2</span>Professional email + social links</div></td>
+          <td>Replace Gmail with info@reliableanchor.ng (or equivalent). Connect all social icons to real, active profiles — or remove them if profiles don't exist yet. These two fixes can be live within 24 hours of receiving access.</td>
+          <td>Trust floor established</td>
         </tr>
         <tr>
-          <td>
-            <div class="del-title"><span class="del-num">M3</span>Digital Document Vault</div>
-          </td>
-          <td>Secure file management gateway where importers upload Bills of Lading, Commercial Invoices, and PAAR results directly into their tracking records.</td>
-          <td>Removes the risk of missing files in messy email threads and provides an audit log for operations.</td>
+          <td><div class="dt"><span class="dn">D3</span>Licence & credentials section</div></td>
+          <td>A dedicated "Accreditations" strip on the homepage and footer displaying NCS licence number, CAC registration, and any industry affiliations — formatted as recognisable badge-style visuals.</td>
+          <td>B2B credibility signal</td>
         </tr>
         <tr>
-          <td>
-            <div class="del-title"><span class="del-num">M4</span>Automated Quoting Hub</div>
-          </td>
-          <td>An interactive pricing engine that computes estimated terminal costs and customs clearance duties based on specific HS Codes and cargo value parameters.</td>
-          <td>Captures high-intent B2B leads by giving importers instant, practical clarity.</td>
+          <td><div class="dt"><span class="dn">D4</span>Navbar search integration</div></td>
+          <td>Move site-wide search from the service sidebar into the main navigation bar. Removes the sidebar entirely or repurposes it as a cleaner service quick-links panel. Available on every page, on every device.</td>
+          <td>Navigation & discoverability</td>
         </tr>
         <tr>
-          <td>
-            <div class="del-title"><span class="del-num">M5</span>Operations Management Portal</div>
-          </td>
-          <td>An internal admin dashboard for field clearing agents to update status logs, clear task lists, and flag cargo delays in real time.</td>
-          <td>Enables a single operations coordinator to manage up to 5x more container pipelines concurrently.</td>
+          <td><div class="dt"><span class="dn">D5</span>Fix & unify stat counters</div></td>
+          <td>Replace all broken "K+" placeholder values with real figures from the business. Apply consistent formatting across all counters. Add animated count-up on scroll for visual engagement.</td>
+          <td>Social proof integrity</td>
+        </tr>
+        <tr>
+          <td><div class="dt"><span class="dn">D6</span>Importer's Guide lead capture</div></td>
+          <td>Reposition the Importer's Guide as a homepage featured section. Gate a downloadable PDF version behind an email form. Integrate with Mailchimp or Brevo to build a warm lead list automatically.</td>
+          <td>Lead generation engine</td>
+        </tr>
+        <tr>
+          <td><div class="dt"><span class="dn">D7</span>Visual & brand uplift</div></td>
+          <td>Refine typography, tighten spacing, and elevate the visual identity toward the premium B2B end — without a full redesign. The site's red-and-green palette is workable; the execution needs polish and consistency.</td>
+          <td>Perceived authority</td>
+        </tr>
+        <tr>
+          <td><div class="dt"><span class="dn">D8</span>On-page SEO & schema</div></td>
+          <td>LocalBusiness and Service schema for all service pages. Optimised meta titles targeting searches like "customs clearing agent Apapa" and "import documentation Nigeria." XML sitemap and Google Search Console setup.</td>
+          <td>Organic search visibility</td>
+        </tr>
+        <tr>
+          <td><div class="dt"><span class="dn">D9</span>Fix duplicate heading copy</div></td>
+          <td>Audit all service pages for copy errors, starting with the confirmed "Why Choose Reliable Anchor Why Choose Reliable Anchor" duplicate on the Compliance page. Full content proofread across all pages included.</td>
+          <td>Professionalism & detail</td>
+        </tr>
+        <tr>
+          <td><div class="dt"><span class="dn">D10</span>Differentiate service page layouts</div></td>
+          <td>Break the identical template pattern across service pages. Each service gets a distinct visual section structure, unique hero framing, and service-specific supporting imagery — so the offering feels genuinely differentiated rather than copy-pasted.</td>
+          <td>Clarity & brand depth</td>
         </tr>
       </tbody>
     </table>
@@ -175,46 +183,95 @@
 
   <hr>
 
+  <!-- 03 PHASE 2 -->
   <div class="section">
-    <div class="section-head">
-      <span class="section-num">03 //</span>
-      <h2>Implementation Roadmap</h2>
-    </div>
+    <div class="section-head"><span class="section-num">03 //</span><h2>Phase 2 Vision — The Client Platform</h2></div>
 
-    <div class="timeline-wrap">
+    <p>Once the website is performing well, there is a significantly larger opportunity: converting reliableanchor.ng from a marketing site into an <strong>operational platform</strong> — a client-facing web app that manages the entire clearance journey digitally.</p>
+    <p>No Nigerian customs company currently offers this. The ones who build it first will own the category.</p>
+
+    <div class="phase2-box">
+      <h3>What a Reliable Anchor client portal would include</h3>
+      <p class="p2-sub">Phase 2 scope — proposed after Phase 1 delivery, based on results</p>
+      <div class="p2-grid">
+        <div class="p2-card">
+          <h4>📁 Client Document Portal</h4>
+          <p>Clients upload Form M, Bill of Lading, PAAR, and other required documents directly through a secure dashboard — no more WhatsApp document chains.</p>
+        </div>
+        <div class="p2-card">
+          <h4>📦 Shipment Status Tracker</h4>
+          <p>Visual board showing real-time status: At Port → Customs Filing → Cleared → In Transit → Delivered. Clients check themselves; support calls drop significantly.</p>
+        </div>
+        <div class="p2-card">
+          <h4>📋 Dynamic Document Checklist</h4>
+          <p>Client selects cargo type and origin country — the system generates the exact required documents for that shipment. Eliminates the #1 cause of clearance delays.</p>
+        </div>
+        <div class="p2-card">
+          <h4>💬 SMS / Email Alerts</h4>
+          <p>"Your cargo has cleared customs." "Action needed: missing SONCAP certificate." Automated, timely notifications that make clients feel in control and reduce anxiety.</p>
+        </div>
+        <div class="p2-card">
+          <h4>📊 Staff Admin Dashboard</h4>
+          <p>Internal view: all active shipments, document status per client, outstanding actions, and client history — replacing the current WhatsApp and email chaos for the team.</p>
+        </div>
+        <div class="p2-card">
+          <h4>💰 Quote Calculator</h4>
+          <p>Public-facing tool: input cargo type, port of entry, and origin country — get an estimated timeline and cost range. Captures high-intent leads before competitors do.</p>
+        </div>
+      </div>
+      <p class="p2-note"><strong>Note:</strong> This is a Phase 2 proposal — shared here for strategic visibility, not as part of the current scope. Phase 1 fixes the foundation. Once results are visible, Phase 2 becomes the natural next conversation.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- 04 TIMELINE -->
+  <div class="section">
+    <div class="section-head"><span class="section-num">04 //</span><h2>Timeline — Phase 1</h2></div>
+
+    <div class="tl-wrap">
       <div class="tl-item">
         <div class="tl-card">
-          <div class="tl-week">Weeks 1-2</div>
+          <div class="tl-week">Week 1</div>
           <div class="tl-content">
-            <h4>Phase 1: Interface Modernization &amp; Navigation Fixes</h4>
-            <p>Deploy immediate fixes for broken links and 404 paths. Restructure the navbar header layout with the centralized service search element. Transition the visual design system to a clean, premium slate canvas featuring focused corporate accents.</p>
+            <h4>Access + Emergency fixes</h4>
+            <p>Site admin access, kick-off to confirm real metrics, licence numbers, and social accounts. D1 (404 fixes) and D2 (email + social) completed within 48 hours. Design direction signed off by end of week.</p>
           </div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-card">
-          <div class="tl-week">Weeks 3-5</div>
+          <div class="tl-week">Week 2</div>
           <div class="tl-content">
-            <h4>Phase 2: Database Modeling &amp; Secure Authentication</h4>
-            <p>Develop core relational data schemas for client profiles, cargo accounts, and consignment tracking paths. Set up the secure user account system and access configurations using robust modernization frameworks (such as Next.js/Laravel/Supabase).</p>
+            <h4>Credentials + Stats + Visual uplift</h4>
+            <p>D3, D5, and D7 delivered. Accreditations strip live. All stat counters corrected with real figures and animated. Typography and brand consistency applied across the site.</p>
           </div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-card">
-          <div class="tl-week">Weeks 6-8</div>
+          <div class="tl-week">Week 3</div>
           <div class="tl-content">
-            <h4>Phase 3: Core App Engine Development</h4>
-            <p>Build out the front-end Client Operations Hub, the secure Document Vault uploading gateway, and the integrated internal agent control screens. Wire up automated message notifications to keep users informed at key clearing milestones.</p>
+            <h4>Navigation + Lead capture</h4>
+            <p>D4 and D6 built. Search moved to navbar. Importer's Guide repositioned with email gate and Mailchimp integration live. Sidebar cleaned up across service pages.</p>
           </div>
         </div>
       </div>
       <div class="tl-item">
         <div class="tl-card">
-          <div class="tl-week">Weeks 9-10</div>
+          <div class="tl-week">Week 4</div>
           <div class="tl-content">
-            <h4>Phase 4: End-to-End System Testing &amp; Deployment</h4>
-            <p>Conduct end-to-end user tests across mobile and desktop viewports. Run security testing on file uploads and payload data handling. Train internal team on management portals before formal platform rollout.</p>
+            <h4>SEO implementation</h4>
+            <p>D8 completed. Schema markup deployed on all service pages. Meta titles and descriptions optimised for high-intent Nigerian logistics searches. XML sitemap submitted to Google Search Console.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-card">
+          <div class="tl-week">Week 5</div>
+          <div class="tl-content">
+            <h4>QA, client review & launch</h4>
+            <p>Full cross-device testing. Enquiry form and WhatsApp links tested end-to-end. All service links re-verified. Client review session with revisions applied. Production deployment with 48-hour post-launch monitoring.</p>
           </div>
         </div>
       </div>
@@ -223,81 +280,77 @@
 
   <hr>
 
+  <!-- 05 PRICING -->
   <div class="section">
-    <div class="section-head">
-      <span class="section-num">04 //</span>
-      <h2>Project Options &amp; Investment</h2>
-    </div>
+    <div class="section-head"><span class="section-num">05 //</span><h2>Investment — Phase 1</h2></div>
 
-    <p>Select the tier that aligns with your timeline and operational scale. The <strong>Infrastructure Transformation</strong> tier is highly recommended for long-term competitiveness in enterprise B2B markets.</p>
+    <p>Three tiers. <strong>Authority</strong> is recommended — it covers all ten deliverables, including the broken-site fixes that have immediate impact on enquiry volume and client trust.</p>
 
     <div class="pricing-grid">
-
-      <div class="price-card">
-        <div class="price-header">
-          <div class="price-name">Core Repair &amp; Rebrand</div>
-          <div class="price-amount">₦750,000 <span>one-off</span></div>
+      <div class="pc">
+        <div class="ph">
+          <div class="pn">Essentials</div>
+          <div class="pa">₦380,000 <span>once-off</span></div>
         </div>
-        <div class="price-body">
+        <div class="pb">
           <ul>
-            <li><span class="check">✓</span> Global navbar restructure</li>
-            <li><span class="check">✓</span> Resolution of all 404 link faults</li>
-            <li><span class="check">✓</span> High-end responsive UI visual rebrand</li>
-            <li><span class="check">✓</span> Deployment as an optimized, clean marketing platform</li>
+            <li><span class="ck">✓</span> Fix all 404 service links (D1)</li>
+            <li><span class="ck">✓</span> Professional email + social (D2)</li>
+            <li><span class="ck">✓</span> Fix stat counters (D5)</li>
+            <li><span class="ck">✓</span> On-page SEO & schema (D8)</li>
           </ul>
         </div>
       </div>
 
-      <div class="price-card featured">
-        <div class="price-header">
-          <div class="featured-label">Recommended Strategy</div>
-          <div class="price-name">Infrastructure Shift</div>
-          <div class="price-amount">₦2,850,000 <span>staged billing</span></div>
+      <div class="pc featured">
+        <div class="ph">
+          <div class="fl">Recommended</div>
+          <div class="pn">Authority</div>
+          <div class="pa">₦580,000 <span>once-off</span></div>
         </div>
-        <div class="price-body">
+        <div class="pb">
           <ul>
-            <li><span class="check">✓</span> Everything in Core Rebrand</li>
-            <li><span class="check">✓</span> Interactive Customer Tracking Dashboard</li>
-            <li><span class="check">✓</span> Automated Consignment Pipeline Engine</li>
-            <li><span class="check">✓</span> Secure Document Vault for regulatory files</li>
-            <li><span class="check">✓</span> Internal Operations Dashboard for field agents</li>
+            <li><span class="ck">✓</span> Everything in Essentials</li>
+            <li><span class="ck">✓</span> Licence & credentials section (D3)</li>
+            <li><span class="ck">✓</span> Navbar search integration (D4)</li>
+            <li><span class="ck">✓</span> Importer's Guide lead capture (D6)</li>
+            <li><span class="ck">✓</span> Visual & brand uplift (D7)</li>
+            <li><span class="ck">✓</span> Copy fixes & page differentiation (D9, D10)</li>
           </ul>
         </div>
       </div>
 
-      <div class="price-card">
-        <div class="price-header">
-          <div class="price-name">Enterprise Scale</div>
-          <div class="price-amount">₦4,200,000 <span>staged billing</span></div>
+      <div class="pc">
+        <div class="ph">
+          <div class="pn">Scale</div>
+          <div class="pa">₦820,000 <span>once-off</span></div>
         </div>
-        <div class="price-body">
+        <div class="pb">
           <ul>
-            <li><span class="check">✓</span> Everything in Infrastructure Shift</li>
-            <li><span class="check">✓</span> SMS/WhatsApp automated pipeline notifications</li>
-            <li><span class="check">✓</span> Custom accounting integration with automated duty calculations</li>
-            <li><span class="check">✓</span> 6 Months comprehensive post-launch infrastructure maintenance</li>
+            <li><span class="ck">✓</span> Everything in Authority</li>
+            <li><span class="ck">✓</span> 3 months post-launch support</li>
+            <li><span class="ck">✓</span> Site maintenance retainer</li>
+            <li><span class="ck">✓</span> GA4 + Search Console dashboard</li>
+            <li><span class="ck">✓</span> Phase 2 platform scoping (free)</li>
           </ul>
         </div>
       </div>
-
     </div>
   </div>
 
   <hr>
 
+  <!-- 06 WHY -->
   <div class="section">
-    <div class="section-head">
-      <span class="section-num">05 //</span>
-      <h2>Why This Approach</h2>
-    </div>
-    <p>Reliable Anchor's primary business bottleneck is not simply aesthetic appeal — it is <strong>operational validation.</strong> Dead service pathways, broken routing patterns, and disconnected interfaces create immediate friction for enterprise clients looking for deep logistical security.</p>
-    <p>By moving past a static template architecture and deploying a centralized web infrastructure, the business achieves distinct advantages over traditional brokerages: unmatched tracking clarity for corporate clients, organized digital document storage, and faster throughput across port terminals. This moves the organization to the forefront of modern B2B supply chain solutions.</p>
+    <div class="section-head"><span class="section-num">06 //</span><h2>Why This Approach</h2></div>
+    <p>The problems on reliableanchor.ng are not aesthetic — they are functional and credibility-based. Broken links, a Gmail address, and empty social icons are not things a client forgives with "nice design." They are things that trigger the decision to close the tab and call a competitor. Every recommendation in this proposal addresses a specific, documented issue found by actually reviewing the site.</p>
+    <p>Beyond the fixes, the Phase 2 platform vision is worth taking seriously. No customs clearance company in Nigeria currently offers clients a digital shipment tracking portal or document management dashboard. The first firm to build it — at the right quality — owns a durable competitive advantage in a market where trust is the primary buying criterion. Reliable Anchor is positioned to be that company.</p>
   </div>
 
   <div class="cta-block">
     <div>
-      <h3>Ready to initiate structural modernization?</h3>
-      <p>Approve this directional engineering spec to lock in development availability. Project setup actions can initiate within 48 hours of initial server access provisioning.</p>
+      <h3>Ready to get started?</h3>
+      <p>Reach out on WhatsApp or by email to confirm scope. A 40% deposit secures your kick-off date. The D1 and D2 critical fixes can be live within 48 hours of receiving site access.</p>
     </div>
     <div class="cta-contacts">
       <a href="mailto:iwunzemiracle9@gmail.com" class="cta-link"><i class="ph ph-envelope-simple"></i> iwunzemiracle9@gmail.com</a>
